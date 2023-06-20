@@ -15,7 +15,7 @@ public class RedBlackTree {
             return true;
         }
     }
-
+    // метод балансировки дерева
     private Node rebalance(Node node) {
         Node result = node;
         boolean needRebalance;
